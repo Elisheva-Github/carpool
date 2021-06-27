@@ -12,11 +12,11 @@ import {
 } from "react-router-dom";
 
 
-const App=() =>{
+const App = () => {
   return (
     <Router>
       <Switch>
-      <Route path="/" exact>
+        <Route path="/" exact>
           <HomePage />
         </Route>
         <Route path="/newDrive">
